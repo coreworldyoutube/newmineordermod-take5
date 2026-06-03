@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "type=0": { "model": "minecraft:block/polished_andesite" },
+    "type=1": { "model": "minecraft:block/andesite" }
+  }
+}

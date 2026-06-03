@@ -12,7 +12,7 @@ import net.minecraft.world.entity.player.Inventory;
 
 public class CrusherScreen extends AbstractContainerScreen<CrusherMenu> {
     private static final ResourceLocation GUI_TEXTURE =
-            ResourceLocation.fromNamespaceAndPath(Main.MOD_ID,"textures/gui/growth_chamber/growth_chamber_gui.png");
+            ResourceLocation.fromNamespaceAndPath(Main.MOD_ID,"textures/gui/crusher/crusher_gui.png");
     private static final ResourceLocation ARROW_TEXTURE =
             ResourceLocation.fromNamespaceAndPath(Main.MOD_ID,"textures/gui/arrow_progress.png");
 

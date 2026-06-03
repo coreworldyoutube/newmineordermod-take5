@@ -1,0 +1,13 @@
+{
+  "type": "nmo:mixer",
+  "ingredient1": {
+    "item": "minecraft:iron_ingot"
+  },
+  "ingredient2": {
+    "item": "minecraft:coal"
+  },
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  }
+}

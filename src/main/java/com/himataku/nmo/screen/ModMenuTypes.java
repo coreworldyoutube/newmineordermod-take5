@@ -1,6 +1,7 @@
 package com.himataku.nmo.screen;
 
 import com.himataku.nmo.Main;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.MenuType;
@@ -16,6 +17,11 @@ public class ModMenuTypes {
 
     public static final DeferredHolder<MenuType<?>, MenuType<CrusherMenu>> CRUSHER_MENU =
             registerMenuType("crusher_menu", CrusherMenu::new);
+
+    public static final DeferredHolder<MenuType<?>, MenuType<MixerMenu>> MIXER_MENU =
+            registerMenuType("mixer_menu", MixerMenu::new);
+
+
 
     private static <T extends AbstractContainerMenu>DeferredHolder<MenuType<?>, MenuType<T>> registerMenuType(String name,
                                                                                                               IContainerFactory<T> factory) {

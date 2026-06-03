@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "type=0": { "model": "minecraft:block/polished_diorite" },
+    "type=1": { "model": "minecraft:block/diorite" }
+  }
+}

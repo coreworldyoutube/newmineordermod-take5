@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "type=0": { "model": "minecraft:block/gravel" },
+    "type=1": { "model": "minecraft:block/cobblestone" }
+  }
+}

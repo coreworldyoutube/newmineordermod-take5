@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "beryllium_nugget",
+  "key": {
+    "#": {
+      "item": "nmo:beryllium_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "nmo:beryllium_ingot"
+  }
+}

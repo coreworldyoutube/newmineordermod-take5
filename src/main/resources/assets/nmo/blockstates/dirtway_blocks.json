@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "type=0": { "model": "minecraft:block/dirt" },
+    "type=1": { "model": "minecraft:block/packed_mud" },
+    "type=2": { "model": "minecraft:block/oak_planks" },
+    "type=3": { "model": "minecraft:block/mud_bricks" }
+  }
+}

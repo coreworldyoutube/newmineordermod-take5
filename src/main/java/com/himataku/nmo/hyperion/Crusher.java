@@ -1,4 +1,4 @@
-package com.himataku.nmo;
+package com.himataku.nmo.hyperion;
 
 
 import com.himataku.nmo.e.CrusherBlockEntity;

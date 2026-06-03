@@ -11,7 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.neoforged.neoforge.items.SlotItemHandler;
-
+//null
 public class CrusherMenu extends AbstractContainerMenu {
     public final CrusherBlockEntity blockEntity;
     private final Level level;

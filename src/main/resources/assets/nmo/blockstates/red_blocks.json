@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "type=0": { "model": "minecraft:block/bricks" },
+    "type=1": { "model": "minecraft:block/granite" },
+    "type=2": { "model": "minecraft:block/polished_granite" },
+    "type=3": { "model": "minecraft:block/terracotta" }
+  }
+}
