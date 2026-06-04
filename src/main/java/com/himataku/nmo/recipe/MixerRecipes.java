@@ -32,8 +32,13 @@ public record MixerRecipes(Ingredient inputItem1,Ingredient inputItem2, ItemStac
 public boolean matches(MixerRecipeinputer input, Level level) {
     if (level.isClientSide()) return false;
 
-    return (inputItem1.test(input.input1()) && inputItem2.test(input.input2())) ||
-            (inputItem1.test(input.input2()) && inputItem2.test(input.input1()));
+    return (
+            inputItem1.test(input.getItem(0)) &&
+                    inputItem2.test(input.getItem(1))
+    ) || (
+            inputItem1.test(input.getItem(1)) &&
+                    inputItem2.test(input.getItem(0))
+    );
 }
 
     @Override

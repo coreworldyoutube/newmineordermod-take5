@@ -155,12 +155,16 @@ public class MixerBlockEntity extends BlockEntity implements MenuProvider {
 
     private boolean hasRecipe() {
         Optional<RecipeHolder<MixerRecipes>> recipe = getCurrentRecipe();
+
+        System.out.println("Recipe found: " + recipe.isPresent());
+
         if(recipe.isEmpty()) {
             return false;
         }
 
         ItemStack output = recipe.get().value().output();
-        return canInsertAmountIntoOutputSlot(output.getCount()) && canInsertItemIntoOutputSlot(output);
+        return canInsertAmountIntoOutputSlot(output.getCount())
+                && canInsertItemIntoOutputSlot(output);
     }
 
     private Optional<RecipeHolder<MixerRecipes>> getCurrentRecipe() {
